@@ -1,0 +1,6 @@
+Django>=4.0
+psycopg2-binary # For PostgreSQL database connectivity
+celery>=5.2
+redis>=4.0 # For Redis as Celery broker
+python-dotenv # For loading environment variables
+dj-database-url # To parse the DATABASE_URL environment variable
